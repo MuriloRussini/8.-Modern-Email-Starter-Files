@@ -63,11 +63,21 @@
 	}
 
 	.two-columns .content {
-		display: inline-block;
+		/* display: inline-block; */
 		text-align: left;
-		vertical-align: top;
-		width: 100%;
-		max-width: 300px;
+		/* vertical-align: top; */
+		font-size: 15px;
+		line-height: 20px;
+		/* width: 100%; */
+		/* max-width: 300px; */
+	}
+
+	.two-columns.last {
+		padding: 15px 0;
+	}
+
+	.two-columns .padding {
+		padding: 20px;
 	}
 
 	.btn {
@@ -209,24 +219,24 @@
 
 <!-- TWO COLUMN SECTION -->
 			<tr>
-				<td>
+				<td style="background-color: #1D1E20;">
 					<table width="100%">
 
 						<tr>
-							<td class="two-columns" style="background-color: #1D1E20; padding-bottom: 30px;">
+							<td class="two-columns last" style="padding-bottom: 30px;">
 
 								<table class="column">
 									<tr>
 										<td class="padding">
-											<table class="content">
 
+											<table class="content">
 												<tr>
 													<td>
 														<img src="https://fq8ku9wqwk7gai1z3frl16nd-wpengine.netdna-ssl.com/wp-content/uploads/2019/04/GettyImages-997734694.jpg" alt="" width="230" height="280" style="box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7); margin: 35px 20px 35px 20px;">
 													</td>
 												</tr>
-
 											</table>
+
 										</td>
 									</tr>
 								</table>
@@ -235,8 +245,7 @@
 
 									<tr>
 										<td class="padding">
-											<table class="content">
-												<!-- why doesn't this show up -->
+											<table class="content" style="border: 5px solid yellow; margin-top: 30px;">
 												<tr>
 													<td style="color: #D0CFD0;">
 														<h4><strong>Responsive HTML Email Templates</strong></h4>
